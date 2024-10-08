@@ -62,4 +62,4 @@ button_divide.grid(row=2, column=3, padx=5, pady=5)
 result_label = tk.Label(root, text="Результат: ")
 result_label.grid(row=3, column=0, columnspan=4, padx=5, pady=5)
 
-# root.mainloop()  # Видаляємо виклик, щоб інтерфейс міг тестуватися
+root.mainloop()  # Видаляємо виклик, щоб інтерфейс міг тестуватися
